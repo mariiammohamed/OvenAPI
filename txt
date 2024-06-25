@@ -1,0 +1,20 @@
+
+
+//API Authentication using sanctum
+-----------------------------------
+//1- install sanctum becuase the version of 11 not have sanctum
+//php artisan install:api
+//2-edit in user model according to deocumention
+//use Laravel\Sanctum\HasApiTokens;
+// class User extends Authenticatable
+// {
+//     use HasApiTokens, HasFactory, Notifiable;
+// }
+//3- make controller have register , login , profile of user , logout
+
+///////////////////////////////////////////////////////////////////////////////////////
+//api CRUD Operation
+Admin Dashboard-->
+------------------------------
+Database
+product--> name , quantity , price
